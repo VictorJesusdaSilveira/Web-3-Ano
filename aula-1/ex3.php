@@ -14,7 +14,7 @@ $retangulos = array($retangulo1 , $retangulo2 , $retangulo3);
 
 foreach ($retangulos as $r) {
    $area = $r["base"] * $r["altura"] . "<br>";
-   print $area;
+   print "Essa é a área do retângulo: " . $area;
 }
 
 
