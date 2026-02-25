@@ -13,7 +13,7 @@ function desenhaLinha(array $pais){
 
 $pais1 = array(
     "ordem" => "1",
-    "nome" => "Estados Unidos",
+    "nome" => "🇺🇸 Estados Unidos",
     "ouro" => "46",
     "prata" => "37",
     "bronze" => "38",
@@ -22,7 +22,7 @@ $pais1 = array(
 
 $pais2 = array(
     "ordem" => "2",
-    "nome" => "Grã-Bretanha",
+    "nome" => "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Grã-Bretanha",
     "ouro" => "27",
     "prata" => "23",
     "bronze" => "17",
@@ -31,7 +31,7 @@ $pais2 = array(
 
 $pais3 = array(
     "ordem" => "3",
-    "nome" => "China",
+    "nome" => "🇨🇳 China",
     "ouro" => "26",
     "prata" => "18",
     "bronze" => "26",
@@ -40,7 +40,7 @@ $pais3 = array(
 
 $pais4 = array(
     "ordem" => "4",
-    "nome" => "Russia",
+    "nome" => "🇷🇺 Russia",
     "ouro" => "19",
     "prata" => "17",
     "bronze" => "20",
@@ -49,7 +49,7 @@ $pais4 = array(
 
 $pais5 = array(
     "ordem" => "5",
-    "nome" => "Alemanha",
+    "nome" => "🇩🇪 Alemanha",
     "ouro" => "17",
     "prata" => "10",
     "bronze" => "15",
@@ -65,11 +65,12 @@ print "<table border='1'>";
 print "<tr>";
 print "<th>Ordem</th>";
 print "<th>Nome</th>";
-print "<th>Ouro</th>";
-print "<th>Prata</th>";
-print "<th>Bronze</th>";
-print "<th>Medalhas</th>";
+print "<th>🏅</th>";
+print "<th>🥈</th>";
+print "<th>🥉</th>";
+print "<th>🏅🥈🥉</th>";
 print "<tr>";
+
 
 
 
