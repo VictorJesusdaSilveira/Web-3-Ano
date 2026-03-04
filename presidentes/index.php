@@ -24,9 +24,9 @@ print "</table>"
 
 foreach ($presidentes as $p) {
     print "<tr>>";
-    print "<td>" . $p->getNumero() "</td>";
-    print "<td>" . $p->getNome() "</td>";
-    print "<td>" . $p->getInicio() "</td>";
-    print "<td>" . $p->getFim() "</td>";
+    print "<td>" . $p->getNumero() . "</td>";
+    print "<td>" . $p->getNome() . "</td>";
+    print "<td>" . $p->getInicio() . "</td>";
+    print "<td>" . $p->getFim() . "</td>";
     print "</tr>";
 }
