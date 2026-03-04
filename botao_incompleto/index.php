@@ -1,8 +1,12 @@
 <?php
+//falta terminar a função e criar um ultimo array 
+
 
 print "<link rel="stylesheet" href="botaoImagem.css">"
 
 function desenhaBotao($bandas , $timesCS , $selecoes){
+
+
 
     print "<div class='dropdown'>";
     print "<button class='dropbtn'>Bandas</button>";
@@ -34,9 +38,9 @@ $selecoes = array{
     $selecao3 = new Link("https://www.google.com/imgres?q=alemanha%20logo&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fpt%2Fa%2Fa9%2FDFBEagle.png&imgrefurl=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FSele%25C3%25A7%25C3%25A3o_Alem%25C3%25A3_de_Futebol&docid=uq3xGnizEjMgNM&tbnid=1oSvqNLSKhyA4M&vet=12ahUKEwji1rjxpIaTAxUtrJUCHVKOLm4QnPAOegQIGhAB..i&w=300&h=369&hcb=2&ved=2ahUKEwji1rjxpIaTAxUtrJUCHVKOLm4QnPAOegQIGhAB" , "Alemanha");
 }
 
-
-
-
-
+desenhaBotao($bandas);
+desenhaBotao($timesCS);
+desenhaBotao($selecoes);
+desenhaBotao();
 
 ?>
