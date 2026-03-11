@@ -1,14 +1,13 @@
 <?php
 
-print "Parâmetros recebidos por GET: <br>";
-
 $nome = $_GET['nome'];
+$idade = $_GET['idade'];
+
+print "Parâmetros recebidos por GET: <br>";
 
 print "Esse é o seu nome: " . $nome;
 
 print "<br>";
-
-$idade = $_GET['idade'];
 
 print "Idade de Victor: " . $idade;
 
