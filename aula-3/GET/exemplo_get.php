@@ -9,7 +9,7 @@ print "Esse é o seu nome: " . $nome;
 
 print "<br>";
 
-print "Idade de Victor: " . $idade;
+print "Essa é a sua idade: " . $idade;
 
 //exemplo_get.php?nome=Victor&idade=17
 
