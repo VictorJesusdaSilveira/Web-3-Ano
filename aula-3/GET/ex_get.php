@@ -12,6 +12,8 @@ if(isset($_GET["num1"] , $_GET["num2"])){
 
     $divisao = $num1 / $num2;
 
+    $resto = $num1 % $num2;
+
 
     print "Soma: " . $soma . "<br>";
 
@@ -20,6 +22,9 @@ if(isset($_GET["num1"] , $_GET["num2"])){
     print "Multiplicação: " . $multiplicacao . "<br>";
 
     print "Divisão: " . $divisao . "<br>";
+
+    print "Resto: " . $resto;
+
 }else{
     print "Informe o valor dos parâmetros [num1] e [num2]";
 }
